@@ -180,11 +180,6 @@ void doublyEven(int size)
     }
 }
 
-void singlyEven(int size)
-{
-
-}
-
 void inputBoxSize(int &s)
 {
 	try
