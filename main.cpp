@@ -250,33 +250,6 @@ void inputBoxSize(int &s)
 		cout << n+1 << "\"\n\n\n";
 		inputBoxSize(s);
 	}
-
-	// try
-	// {
-	// 	cout << "\nPlease enter the size of the box to be generated:\n";
-	// 	cin >> s;
-	// 	cin.clear();
-	// 	cin.ignore(10000, '\n');
-	// 	if (s % 2 == 0 || s < 1 || s > 99)
-	// 	{
-	// 		throw (s);
-	// 	}
-	// }
-	// catch (int n)
-	// {
-	// 	if (s > 99)
-	// 	{
-	// 		cout << "\nThat size looks too big for a magic square. ";
-	// 	}
-	// 	else
-	// 	{
-	// 		cout << "\nThe size of the box must be a positive odd integer. ";
-	// 	}
-	// 	cout << "Please try again.\n\nNot sure what to input? Try entering the number ";
-	// 	n = 2 * rand() % 30 + 8;
-	// 	cout << n+1 << "\n\n\n";
-	// 	inputBoxSize(s);
-	// }
 }
 
 void inputRegenerate(int size)
