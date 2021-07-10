@@ -11,9 +11,9 @@ This program can generate:
 This repo is for our final project in Discrete Structures I.
 
 Programmed by:
-Joshua Malabanan
+- Joshua Malabanan
 With special help from:
-Jayson Baya
-Matthew Nolasco
-Khalil Melendrez
-Ezekiel Alibudbud
+- Jayson Baya
+- Matthew Nolasco
+- Khalil Melendrez
+- Ezekiel Alibudbud
