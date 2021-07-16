@@ -330,7 +330,7 @@ void inputBoxSize(int &s)
                 "It's simple. Just type a number once the program asks you to enter the size" <<
                 " of the box to be generated.\nTake note that zero, two, or negative numbers, as well" <<
                 " as decimal numbers, are not allowed and will give you an error message instead.\n";
-				cout << "\nPlease enter the size of the box to be generated:\n";
+				cout << "\n\nPlease enter the size of the box to be generated (type \"help\" for more info):\n";
 			}
 			
 			// Calling stringstream in order to provide error handling when the user inputs strings and
@@ -407,10 +407,10 @@ int main()
 {
     int size;
     
-    cout << "=========================== Magic Box Generator ===========================\n\n" <<
+    cout << "================================ Magic Box Generator ================================\n\n" <<
     "Welcome! This program can generate a magic box. Even the even ones!\n" <<
     "If you are generating larger boxes. I would recommend enabling \"Wrap Text on Resize\"\n" <<
-    "on the Console Properties.\n\n" <<
+    "on the Console Properties or resizing the console window.\n\n" <<
     "To learn more about the program and magic boxes, type \"help\".\n\n";
     inputBoxSize(size);
     printSquare(size);
